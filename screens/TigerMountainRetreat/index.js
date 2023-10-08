@@ -1,3 +1,4 @@
+import { Pressable } from "react-native";
 import React from "react";
 import { View, StyleSheet, ScrollView, SafeAreaView } from "react-native";
 
@@ -8,7 +9,7 @@ const TigerMountainRetreat = () => {
       padding: 10,
       position: 'relative',
       flex: 1
-    }}><View style={styles.QCHBQSWv}></View></ScrollView>
+    }}><Pressable><View style={styles.QCHBQSWv}></View></Pressable></ScrollView>
     </SafeAreaView>;
 };
 
