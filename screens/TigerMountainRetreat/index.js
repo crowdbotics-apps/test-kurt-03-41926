@@ -24,7 +24,8 @@ const styles = StyleSheet.create({
     borderRadius: 0,
     color: "#777777",
     position: "absolute",
-    top: 565
+    top: 560,
+    left: 9
   }
 });
 export default TigerMountainRetreat;
